@@ -1,0 +1,117 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    body {
+        Background-color: #fed966;
+    }
+    a {
+        color: #333;
+    }
+        a:hover {
+        color: #333;
+        }
+    #Issues {
+    }
+    .Ind-issue {
+
+    }
+    .body {
+
+    }
+    #banner {
+
+    }
+    hr {
+        border: none;
+        height: 2px;
+        color: #333;
+        background-color: #333;
+    }
+
+    h1 {
+        position: relative;
+        bottom: 50px;
+        margin-right: 10px;
+    }
+    .column {
+        float: left;
+        width: 49%;
+        padding: 5px;
+    }
+
+    .column2 {
+        float: right;
+        width: 49%;
+        padding: 5px;
+    }
+
+    .row {
+        position: relative;
+        left: 10px;
+    }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    .Ind-issue {
+        display: block;
+        border: 3px solid black;
+        background-color: #b6ff00;
+        width: 800px;
+    }
+    .center {
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 320px;
+        right: 110px;
+    }
+</style>
+<body>
+    <div id="Issues">
+        <div id="banner">
+            <h1>
+                <b><i><u>Issues</u></i></b>
+            </h1>
+        </div>
+        <div class="row Ind-issue">
+            <a class="column" href="https://localhost:44362/Home/PropertyTaxes">
+                <img src="~/css/property.png" alt"" />
+            </a>
+            <div class="column2 body">
+                <a href="https://localhost:44362/Home/PropertyTaxes">
+                    <h2>
+                        Property Taxes
+                    </h2>
+                </a>
+                <a href="https://localhost:44362/Home/PropertyTaxes">
+                    <p>
+                        Property Taxes are increasing while enrollment is decreasing. From 2016-2020, student enrollment has decreased by...
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="row Ind-issue">
+            <a class="column" href="https://localhost:44362/Home/Masks">
+                <img src="~/css/maskss.png" alt"" />
+            </a>
+            <div class="column2 body">
+                <a href="https://localhost:44362/Home/Masks">
+                    <h2>
+                        Masks
+                    </h2>
+                </a>
+                <a href="https://localhost:44362/Home/Masks">
+                    <p>
+                        Dr. Nastro is able to help interpret complex information and directives from the State and help support pragmatic solutions for the safety of our children. He believes in providing...
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
